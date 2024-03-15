@@ -193,7 +193,7 @@
                 </div>
             </div>
             <div class="col-md-6">
-                <label for="capContratacion" class="form-label">Capacidad de Contracción</label>
+                <label for="capContratacion" class="form-label">Capacidad de Contratación</label>
                 <input type="text" class="form-control" id="capContratacion" placeholder="$" name="capContratacion" required>
             </div>
             <div class="col-md-6">
@@ -220,7 +220,6 @@
             <div class="col-12 text-center">
                 <button type="submit" class="btn btn-primary fw-bold">Inscribirse!</button>
             </div><br>
-            <label for="descarga">Descarga Nuestra presentación de ecoaldeas solidarias.</label>
             <a href="" id="descarga">Descarga</a>
             <p></p>
         </form>

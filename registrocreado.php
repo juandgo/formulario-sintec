@@ -21,9 +21,9 @@
                 <!-- <form action=""> -->
                     <h4 class="text-center">¿Quieres inscribir a otra persona deseas volver al inicio?</h4>
                     <div class="col-12 text-center py-5">
-                        <a class="btn btn-primary fw-bold" href="formulario.html">Inscribir otra persona</a>
+                        <a class="btn btn-primary fw-bold" href="inscripcion.php">Inscribir otra persona</a>
 
-                        <a class="btn btn-success fw-bold" href="index.html">Ir a Inicio</a>
+                        <a class="btn btn-success fw-bold" href="index.php">Ir a Inicio</a>
                     </div><br>
                 <!-- </form> -->
             </div>
