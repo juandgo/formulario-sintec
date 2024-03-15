@@ -89,12 +89,13 @@ $stmt->bindParam(':legal', $_POST['legal']);
 
 
 if ($stmt->execute()) {
-
+    session_start();
+    $_SESSION['msj'] = "Inscripción exitosa";
 ?>
 
-    <script type="text/javascript">
+    <!-- <script type="text/javascript">
         window.location.href = "../permisocreado.php";
-    </script>
+    </script> -->
 
 
 <?php
@@ -103,4 +104,3 @@ if ($stmt->execute()) {
     $message = 'Sorry there must have been an issue creating your account';
 }
 
-?>
