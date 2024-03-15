@@ -90,14 +90,13 @@ $stmt->bindParam(':legal', $_POST['legal']);
 
 if ($stmt->execute()) {
     session_start();
-    $_SESSION['msj'] = "Inscripción exitosa";
 ?>
 
-    <!-- <script type="text/javascript">
-        window.location.href = "../permisocreado.php";
-    </script> -->
+    <script type="text/javascript">
+        window.location.href = "../registrocreado.php";
+    </script> 
 
-
+ 
 <?php
 
 } else {
